@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'robotomono';
+    src: url('../Fonts/RobotoMono-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.top-bar {
+    margin: auto;
+    width: 1000px;
+    display: flex;
+
+    .homepage {
+        font-family: vulfmono;
+        flex: 2.5;
+    
+        .brand {
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+    
+            .name {
+                font-size: 36px;
+                color: #000000;
+                margin: 0;
+                text-align: center; 
+            }
+            
+            .logo {
+                margin-left: auto;
+                margin-right: auto;
+                margin: 0;
+                width: 100%;
+                border-radius: 50%;
+            }
+
+
+            .line-1 {
+                text-align: left;
+            }
+            .line-2 {
+                padding-left: 100px;
+            }
+            .line-3 {
+                text-align: right;
+            }
+            .titles {
+                color: #000000;
+                margin-top: 5px;
+            }
+        }
+    }
+    .social {
+        font-family: 'robotomono';
+        display: flex;
+        flex-direction: row;
+        flex: 7.5;
+        justify-content: end;
+        align-items: center;
+    }
+    .socials_icon {
+        padding: 2px;
+        margin: 0px 5px;
+        height: 48px;
+    }
+    .socials_icon:hover {
+        padding: 0px;
+        border: #000000 dashed 2px;
+        border-radius: 25%;
+    }
+}
+
+/* About button */
+.dropdown_button {
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 5px;
+    padding: 10px 20px;
+    border: #000000 3px solid;
+    border-radius: 5px;
+    background-color: #00000000;
+}
+.dropdown {
+    display: inline-block;
+    position: relative;
+
+    .dropdowm_button {
+        color: #000000;
+        background-color: #00000000;
+        padding: 12px 20px;
+        border: 3px solid #000000;
+    }
+    .dropdown_list{
+        text-align: center;
+        border-radius: 5px;
+        display: none;
+        position: absolute;
+        background-color: #f9f9f91d;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        right: 0;
+    }
+    .dropdown_list a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        border-radius: 5px;
+    }  
+    .dropdown_list a:hover {
+        background-color: #f1f1f144
+    }
+    
+}
+.dropdown:hover {
+    .dropdown_list {
+        display: block;
+    }
+}
