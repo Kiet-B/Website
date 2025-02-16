@@ -5,12 +5,18 @@
          url('../Fonts/143effaffbd67b905fe0dfff982bfe2b-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
     font-family: 'robotomono';
     src: url('../Fonts/RobotoMono-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotomono';
+    src: url('../Fonts/RobotoMono-Regular.ttf');
     font-weight: normal;
     font-style: normal;
 }
